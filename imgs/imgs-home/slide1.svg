@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="900" viewBox="0 0 1920 900">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="60%" style="stop-color:#1a0000"/>
+      <stop offset="100%" style="stop-color:#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="red_accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#cc0000"/>
+      <stop offset="100%" style="stop-color:#ff3333"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1920" height="900" fill="url(#bg)"/>
+  
+  <!-- Grade diagonal decorativa -->
+  <line x1="1200" y1="0" x2="1920" y2="900" stroke="rgba(204,0,0,0.06)" stroke-width="1"/>
+  <line x1="1300" y1="0" x2="1920" y2="750" stroke="rgba(204,0,0,0.04)" stroke-width="1"/>
+  <line x1="1400" y1="0" x2="1920" y2="600" stroke="rgba(204,0,0,0.03)" stroke-width="1"/>
+  <line x1="1100" y1="0" x2="1920" y2="1100" stroke="rgba(204,0,0,0.04)" stroke-width="1"/>
+  
+  <!-- Círculo grande decorativo direita -->
+  <circle cx="1500" cy="450" r="380" fill="none" stroke="rgba(204,0,0,0.06)" stroke-width="1"/>
+  <circle cx="1500" cy="450" r="280" fill="none" stroke="rgba(204,0,0,0.04)" stroke-width="1"/>
+  <circle cx="1500" cy="450" r="180" fill="rgba(204,0,0,0.03)"/>
+  
+  <!-- Silhueta carro lado direito (grande, decorativa) -->
+  <g transform="translate(900, 200) scale(1.4)" opacity="0.12">
+    <path d="M40,140 L40,100 Q60,60 120,50 L180,35 Q240,20 310,20 Q380,20 420,35 L480,50 Q540,60 570,100 L580,140 Z" fill="white"/>
+    <path d="M130,50 L170,15 Q220,5 290,5 Q350,5 390,15 L440,50 Z" fill="white"/>
+    <circle cx="140" cy="142" r="38" fill="#444"/>
+    <circle cx="460" cy="142" r="38" fill="#444"/>
+  </g>
+  
+  <!-- Linha vermelha esquerda -->
+  <rect x="0" y="0" width="6" height="900" fill="url(#red_accent)"/>
+  
+  <!-- Número ano decorativo grande -->
+  <text x="1700" y="820" font-family="Georgia, serif" font-size="220" fill="rgba(204,0,0,0.06)" font-weight="bold" text-anchor="middle">2024</text>
+  
+  <!-- Título -->
+  <text x="80" y="180" font-family="Georgia, serif" font-size="80" fill="white" font-weight="bold" letter-spacing="-2">SEU PRÓXIMO</text>
+<text x="80" y="270" font-family="Georgia, serif" font-size="80" fill="white" font-weight="bold" letter-spacing="-2">VEÍCULO</text>
+<text x="80" y="360" font-family="Georgia, serif" font-size="80" fill="white" font-weight="bold" letter-spacing="-2">ESTÁ AQUI</text>
+
+  
+  <!-- Subtítulo -->
+  <text x="80" y="470" font-family="Arial, sans-serif" font-size="22" fill="rgba(255,255,255,0.5)" letter-spacing="2">Estoque selecionado com os melhores seminovos</text>
+  
+  <!-- Linha vermelha decorativa -->
+  <rect x="80" y="488" width="80" height="3" rx="1" fill="#cc0000"/>
+</svg>

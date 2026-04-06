@@ -1,0 +1,131 @@
+[
+  {
+    "id": "001",
+    "ano": 2021,
+    "nome": "Mustang GT 5.0 V8",
+    "marca": "Ford",
+    "preco": 389900,
+    "cambio": "Automático",
+    "km": 22000,
+    "combustivel": "Gasolina",
+    "tipo": "Carro",
+    "galeria": [
+      "imgs/imgs-carros/mustang1.svg",
+      "imgs/imgs-carros/sport1.svg",
+      "imgs/imgs-carros/classic1.svg"
+    ],
+    "link": "https://wa.me/5514999999999?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Ford%20Mustang%20GT%205.0%20V8%202021."
+  },
+  {
+    "id": "002",
+    "ano": 2020,
+    "nome": "911 Carrera S",
+    "marca": "Porsche",
+    "preco": 820000,
+    "cambio": "Automático",
+    "km": 15000,
+    "combustivel": "Gasolina",
+    "tipo": "Carro",
+    "galeria": [
+      "imgs/imgs-carros/porsche1.svg",
+      "imgs/imgs-carros/sport1.svg"
+    ],
+    "link": "https://wa.me/5514999999999?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Porsche%20911%20Carrera%20S%202020."
+  },
+  {
+    "id": "003",
+    "ano": 2022,
+    "nome": "M3 Competition",
+    "marca": "BMW",
+    "preco": 620000,
+    "cambio": "Automático",
+    "km": 8000,
+    "combustivel": "Gasolina",
+    "tipo": "Carro",
+    "galeria": [
+      "imgs/imgs-carros/bmw1.svg",
+      "imgs/imgs-carros/audi1.svg"
+    ],
+    "link": "https://wa.me/5514999999999?text=Ol%C3%A1!%20Tenho%20interesse%20no%20BMW%20M3%20Competition%202022."
+  },
+  {
+    "id": "004",
+    "ano": 2022,
+    "nome": "RS6 Avant",
+    "marca": "Audi",
+    "preco": 890000,
+    "cambio": "Automático",
+    "km": 11000,
+    "combustivel": "Gasolina",
+    "tipo": "Carro",
+    "galeria": [
+      "imgs/imgs-carros/audi1.svg",
+      "imgs/imgs-carros/bmw1.svg"
+    ],
+    "link": "https://wa.me/5514999999999?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Audi%20RS6%20Avant%202022."
+  },
+  {
+    "id": "005",
+    "ano": 2021,
+    "nome": "Civic Type R",
+    "marca": "Honda",
+    "preco": 215000,
+    "cambio": "Manual",
+    "km": 18000,
+    "combustivel": "Gasolina",
+    "tipo": "Carro",
+    "galeria": [
+      "imgs/imgs-carros/civic1.svg",
+      "imgs/imgs-carros/sport1.svg"
+    ],
+    "link": "https://wa.me/5514999999999?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Honda%20Civic%20Type%20R%202021."
+  },
+  {
+    "id": "006",
+    "ano": 2023,
+    "nome": "Tracker Premier 1.2T",
+    "marca": "Chevrolet",
+    "preco": 142000,
+    "cambio": "Automático",
+    "km": 4500,
+    "combustivel": "Flex",
+    "tipo": "Carro",
+    "galeria": [
+      "imgs/imgs-carros/tracker1.svg",
+      "imgs/imgs-carros/suv1.svg"
+    ],
+    "link": "https://wa.me/5514999999999?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Chevrolet%20Tracker%20Premier%201.2T%202023."
+  },
+  {
+    "id": "007",
+    "ano": 2021,
+    "nome": "Compass Limited 2.0",
+    "marca": "Jeep",
+    "preco": 192000,
+    "cambio": "Automático",
+    "km": 33000,
+    "combustivel": "Diesel",
+    "tipo": "Carro",
+    "galeria": [
+      "imgs/imgs-carros/jeep1.svg",
+      "imgs/imgs-carros/suv1.svg"
+    ],
+    "link": "https://wa.me/5514999999999?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Jeep%20Compass%20Limited%202.0%202021."
+  },
+  {
+    "id": "008",
+    "ano": 2020,
+    "nome": "Ranger XLS 2.2 CD",
+    "marca": "Ford",
+    "preco": 178000,
+    "cambio": "Manual",
+    "km": 54000,
+    "combustivel": "Diesel",
+    "tipo": "Carro",
+    "galeria": [
+      "imgs/imgs-carros/ranger1.svg",
+      "imgs/imgs-carros/suv1.svg"
+    ],
+    "link": "https://wa.me/5514999999999?text=Ol%C3%A1!%20Tenho%20interesse%20na%20Ford%20Ranger%20XLS%202.2%20CD%202020."
+  }
+]

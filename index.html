@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lençóis Veículos — Seminovos Selecionados</title>
+  <meta name="description" content="Lençóis Veículos — Os melhores seminovos de Lençóis Paulista, SP. Qualidade e elegância em cada negócio.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="header-placeholder"></div>
+
+<!-- ════════════ HERO SPLIT ════════════ -->
+<section class="hero">
+
+  <!-- Lado Esquerdo — Texto -->
+  <div class="hero-left">
+    <!-- Número decorativo -->
+    <div class="hero-deco-num" aria-hidden="true">01</div>
+
+    <div class="hero-eyebrow eyebrow fade-left">Seminovos Selecionados · Lençóis Paulista</div>
+
+    <h1 class="display-xl hero-title fade-left" style="transition-delay:0.1s">
+      O veículo<br>
+      <em class="italic red">certo</em><br>
+      para você.
+    </h1>
+
+    <p class="hero-subtitle fade-left" style="transition-delay:0.2s">
+      Estoque criteriosamente selecionado com os melhores seminovos da região. Transparência, qualidade e negociação sem surpresas.
+    </p>
+
+    <div class="hero-actions fade-left" style="transition-delay:0.3s">
+      <a href="carros.html" class="btn btn-primary"><span>Ver estoque</span></a>
+      <a href="contato.html" class="btn-text btn">FALAR CONOSCO <span class="arrow">→</span></a>
+    </div>
+
+    <div class="hero-counter fade-left" style="transition-delay:0.4s">
+      <div class="hero-counter-item">
+        <div class="hero-counter-num" id="counter-veiculos">—</div>
+        <div class="hero-counter-label">Veículos disponíveis</div>
+      </div>
+      <div class="hero-counter-item">
+        <div class="hero-counter-num">10<span>+</span></div>
+        <div class="hero-counter-label">Anos de experiência</div>
+      </div>
+      <div class="hero-counter-item">
+        <div class="hero-counter-num">100<span>%</span></div>
+        <div class="hero-counter-label">Satisfação garantida</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lado Direito — Slider -->
+  <div class="hero-right">
+    <div class="hero-slide active" data-index="0">
+      <img class="hero-slide-img" src="imgs/imgs-home/slide1.svg" alt="Slide 1">
+      <div class="hero-slide-overlay"></div>
+    </div>
+    <div class="hero-slide" data-index="1">
+      <img class="hero-slide-img" src="imgs/imgs-home/slide2.svg" alt="Slide 2">
+      <div class="hero-slide-overlay"></div>
+    </div>
+    <div class="hero-slide" data-index="2">
+      <img class="hero-slide-img" src="imgs/imgs-home/slide3.svg" alt="Slide 3">
+      <div class="hero-slide-overlay"></div>
+    </div>
+
+    <div class="hero-slide-num" id="slide-num">01 / 03</div>
+    <nav class="hero-nav">
+      <button class="hero-dot active" data-dot="0"></button>
+      <button class="hero-dot" data-dot="1"></button>
+      <button class="hero-dot" data-dot="2"></button>
+    </nav>
+    <div class="hero-progress"><div class="hero-progress-bar" id="progress-bar"></div></div>
+  </div>
+
+</section>
+
+<!-- ════════════ ESTOQUE DESTAQUES ════════════ -->
+<section class="stock-section">
+  <div class="container">
+    <div class="stock-header">
+      <div class="fade-up">
+        <div class="eyebrow" style="margin-bottom:16px">Nosso Estoque</div>
+        <h2 class="display-lg">Destaques <em class="italic">da semana</em></h2>
+      </div>
+      <div class="stock-filters fade-up">
+        <button class="stock-filter-btn active" data-type="todos">Todos</button>
+        <button class="stock-filter-btn" data-type="Carro">Carros</button>
+        <button class="stock-filter-btn" data-type="Moto">Motos</button>
+      </div>
+    </div>
+
+    <div class="vehicles-list" id="vehicles-list">
+      <div style="padding:60px 0;text-align:center;color:var(--gray)">Carregando...</div>
+    </div>
+
+    <div class="stock-more fade-up">
+      <a href="carros.html" class="btn btn-ghost">Ver estoque completo</a>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ BUSCA ════════════ -->
+<section class="search-section">
+  <div class="search-deco" aria-hidden="true">Buscar</div>
+  <div class="container search-inner">
+    <div class="search-lead">
+
+      <div class="fade-left">
+        <div class="eyebrow" style="margin-bottom:16px">Encontre seu veículo</div>
+        <h2 class="display-lg">Filtre pelo que<br><em class="italic red">importa</em></h2>
+        <p style="color:var(--cream-dim);margin-top:20px;max-width:340px;font-size:0.9rem">
+          Use os filtros abaixo para encontrar o veículo perfeito dentro do seu orçamento ou faixa de ano.
+        </p>
+      </div>
+
+      <div class="fade-up">
+        <nav class="search-tabs-nav">
+          <button class="search-tab-btn active" data-panel="preco">Por Preço</button>
+          <button class="search-tab-btn" data-panel="ano">Por Ano</button>
+        </nav>
+
+        <!-- Painel Preço -->
+        <div class="search-panel active" id="panel-preco">
+          <div class="search-fields">
+            <div class="search-field">
+              <label>Preço mínimo</label>
+              <input type="number" id="preco-min" placeholder="R$ 0">
+            </div>
+            <div class="search-field">
+              <label>Preço máximo</label>
+              <input type="number" id="preco-max" placeholder="R$ 999.999">
+            </div>
+          </div>
+          <button class="btn btn-primary" id="btn-preco">
+            <span>Pesquisar</span>
+          </button>
+        </div>
+
+        <!-- Painel Ano -->
+        <div class="search-panel" id="panel-ano">
+          <div class="search-fields">
+            <div class="search-field">
+              <label>Ano mínimo</label>
+              <input type="number" id="ano-min" placeholder="2015">
+            </div>
+            <div class="search-field">
+              <label>Ano máximo</label>
+              <input type="number" id="ano-max" placeholder="2024">
+            </div>
+          </div>
+          <button class="btn btn-primary" id="btn-ano">
+            <span>Pesquisar</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div id="footer-placeholder"></div>
+
+<script src="js/components.js"></script>
+<script src="js/utils.js"></script>
+<script>
+// ── SLIDER ──────────────────────────
+(function() {
+  const slides = document.querySelectorAll('.hero-slide');
+  const dots   = document.querySelectorAll('.hero-dot');
+  const bar    = document.getElementById('progress-bar');
+  const num    = document.getElementById('slide-num');
+  let current  = 0, timer, barTimer;
+
+  function goTo(n) {
+    slides[current].classList.remove('active');
+    dots[current].classList.remove('active');
+    current = (n + slides.length) % slides.length;
+    slides[current].classList.add('active');
+    dots[current].classList.add('active');
+    if (num) num.textContent = String(current+1).padStart(2,'0') + ' / 0' + slides.length;
+    // Reset progress bar
+    if (bar) { bar.style.transition = 'none'; bar.style.width = '0%'; requestAnimationFrame(() => { bar.style.transition = 'width 6s linear'; bar.style.width = '100%'; }); }
+  }
+
+  function start() {
+    if (bar) { bar.style.transition = 'width 6s linear'; bar.style.width = '100%'; }
+    timer = setInterval(() => goTo(current + 1), 6000);
+  }
+  function reset() { clearInterval(timer); goTo(current); start(); }
+
+  dots.forEach(d => d.addEventListener('click', () => { goTo(+d.dataset.dot); reset(); }));
+  start();
+  goTo(0);
+})();
+
+// ── SEARCH TABS ──────────────────────
+document.querySelectorAll('.search-tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.search-tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.search-panel').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('panel-' + btn.dataset.panel)?.classList.add('active');
+  });
+});
+
+document.getElementById('btn-preco')?.addEventListener('click', () => {
+  const p = new URLSearchParams();
+  const mn = document.getElementById('preco-min').value;
+  const mx = document.getElementById('preco-max').value;
+  if (mn) p.set('precoMin', mn);
+  if (mx) p.set('precoMax', mx);
+  window.location.href = 'carros.html?' + p;
+});
+document.getElementById('btn-ano')?.addEventListener('click', () => {
+  const p = new URLSearchParams();
+  const mn = document.getElementById('ano-min').value;
+  const mx = document.getElementById('ano-max').value;
+  if (mn) p.set('anoMin', mn);
+  if (mx) p.set('anoMax', mx);
+  window.location.href = 'carros.html?' + p;
+});
+
+// ── STOCK ────────────────────────────
+let allVehicles = [];
+let currentType = 'todos';
+
+function renderStock(type) {
+  const list = document.getElementById('vehicles-list');
+  const filtered = type === 'todos' ? allVehicles : allVehicles.filter(v => v.tipo === type);
+  const slice = filtered.slice(0, 8);
+  list.innerHTML = slice.length ? slice.map(renderVehicleRow).join('') : '<div style="padding:60px;text-align:center;color:var(--gray)">Nenhum veículo encontrado.</div>';
+  initScrollReveal();
+}
+
+document.querySelectorAll('.stock-filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.stock-filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    renderStock(btn.dataset.type);
+  });
+});
+
+loadVehicles().then(data => {
+  allVehicles = data;
+  const counter = document.getElementById('counter-veiculos');
+  if (counter) counter.textContent = data.length;
+  renderStock('todos');
+});
+</script>
+</body>
+</html>
